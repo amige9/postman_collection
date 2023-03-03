@@ -7,7 +7,7 @@
 	},
 	"item": [
 		{
-			"name": "request 1",
+			"name": "My first request",
 			"event": [
 				{
 					"listen": "test",
