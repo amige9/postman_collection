@@ -1,0 +1,40 @@
+{
+	"info": {
+		"_postman_id": "4e99a288-4b18-487e-89c7-ba9bad1a3aba",
+		"name": "My collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "18419324"
+	},
+	"item": [
+		{
+			"name": "request 1",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.example.com",
+					"protocol": "https",
+					"host": [
+						"www",
+						"example",
+						"com"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
